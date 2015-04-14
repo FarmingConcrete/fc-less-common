@@ -72,15 +72,22 @@
         }
     }
 
-    & > ul > li:first-child a {
-        margin-left: 0;
-    }
+    & > ul {
+        & > li:first-child a {
+            margin-left: 0;
+        }
 
-    & > ul > li > a {
-        font-size: 12px;
+        & > li > a {
+            font-size: 12px;
 
-        &:hover,
-        &.active {
+            &:hover,
+            &.active {
+                background: black;
+                color: white;
+            }
+        }
+
+        & > li.active > a {
             background: black;
             color: white;
         }
