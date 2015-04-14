@@ -1,0 +1,21 @@
+{
+  "name": "fc-less-common",
+  "version": "0.1.0",
+  "authors": [
+    "Eric Brelsford <ebrelsford@gmail.com>"
+  ],
+  "description": "Common LESS files for Farming Concrete projects",
+  "keywords": [
+    "less"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/FarmingConcrete/fc-less-common",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

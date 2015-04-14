@@ -1,0 +1,83 @@
+.required label {
+    font-weight: bold;
+}
+
+.form-group ul {
+    list-style: none;
+    padding: 0;
+}
+
+.form-group input[type="checkbox"] {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: inline;
+    height: 15px;
+    width: 15px;
+}
+
+.projecthours-formset {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+ul.errorlist {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    color: red;
+    list-style: none;
+    padding-left: 0;
+}
+
+.form-control,
+.form-control.picker__input {
+    background-color: @form-input-background;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color: black;
+}
+
+.form-actions {
+    border-top: @separator-border;
+    padding-top: 25px;
+    .make-row(0);
+}
+
+button[type="submit"] {
+    .make-md-column(3);
+
+    &:first-child {
+        .make-md-column-offset(9);
+    }
+}
+
+.form-horizontal {
+    .control-label {
+        text-align: left;
+    }
+
+    .fields {
+        .make-row(0);
+    }
+
+    .form-group {
+        .make-row(0);
+    }
+
+    button.btn-cancel {
+        .make-md-column-offset(6);
+        .make-md-column(3);
+    }
+}
+
+.registration-form {
+    .make-sm-column(4);
+}
+
+// Only make addon seem clickable if pickadate is enabled
+.picker ~ .recorded-input-addon {
+    cursor: pointer;
+}
